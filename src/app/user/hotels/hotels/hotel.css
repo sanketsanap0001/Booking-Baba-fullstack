@@ -1,0 +1,68 @@
+.container::-webkit-scrollbar {
+    display: none;
+}
+.alltesxt{
+    text-decoration-color:#535b61;
+}
+
+div.scrollmenu {
+   
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  div.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+   */
+  
+   div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+
+   /* html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .nav-tab {
+    position: sticky;
+    top: 0;
+  }
+  .ul nav-ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+  }
+  .li nav-li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  li a {
+    text-decoration: none;
+    color: #1ac;
+  }
+  section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: #eee;
+  }  */
